@@ -19,14 +19,18 @@ body {
 }
 
 #get-chore {
-    background-color: #98C1D9;
-    color: #293241;
+    background-color: #3D5A80;
+    color: #EE6C4D;
     outline: solid 1px;
     outline-color: #293241;
 }
-/* how to get the blue outline off button? */
 
-.chore-section {
-    
+
+.container-fluid {
+    background-color: #98c1d9;
+    border-radius: 40px;
 }
 
+.chore-section {
+    color: #293241;
+}
