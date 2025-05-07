@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Quicksand:wght@300..700&display=swap');
+
 
 body {
-    background-color: #293241;
+    background-color: white;
 }
 
 .chore-header {
-    color: #EE6C4D;
+    color: #F72585;
     font-family: "Bangers", system-ui;
     font-size: 5rem;
     /* resizing tip from mdn web docs */
@@ -18,11 +20,14 @@ body {
 }
 
 .description {
-    color: #98c1d9;
+    color: #F72585;
+    font-family: "Quicksand", system-ui;
 }
 
 .instructions {
-    color: #EE6C4D;
+    font-family: "Quicksand", system-ui;
+    color: #7209B7;
+    font-size: 1.4rem;
 
 }
 
@@ -45,12 +50,12 @@ body {
 }
 
 main {
-    background-color: #293241;
+    background-color: white;
 }
 
 footer {
-    background-color: #293241;
-    color: lightslategrey;
+    background-color: white;
+    color: gray;
 }
 
 .chores-div {
@@ -58,11 +63,13 @@ footer {
 }
 
 .about-title {
-    color: #98c1d9;
+    color: #7209B7;
+    font-family: "Quicksand", system-ui;
 }
 
 .card-body {
-    background-color: #98c1d9;
+    background-color: #b5d6e9;
+    font-family: "Quicksand", system-ui;
 }
 
 #about-card {
