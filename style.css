@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
 body {
-    background-color: #293241 !important;
+    background-color: #293241;
 }
 
 .chore-header {
     color: #EE6C4D;
+    font-family: "Bangers", system-ui;
+    font-size: 5rem;
+    /* resizing tip from mdn web docs */
+}
+
+.navbar-brand.m-0 {
+    font-family: "Bangers", system-ui;
+    font-size: 1.5rem;
 }
 
 .description {
@@ -24,7 +35,7 @@ body {
 }
 
 
-.col-6 {
+.col-6.mb-5 {
     background-color: #98c1d9;
     border-radius: 40px;
 }
@@ -38,11 +49,23 @@ main {
 }
 
 footer {
-    color: grey;
-    position: fixed;
-    width: 100%;
+    background-color: #293241;
+    color: lightslategrey;
 }
 
 .chores-div {
     margin: 10%;
+}
+
+.about-title {
+    color: #98c1d9;
+}
+
+.card-body {
+    background-color: #98c1d9;
+}
+
+#about-card {
+    margin-bottom: 48px;
+    /* used devtools to see pixels of bottom margin on home page */
 }
