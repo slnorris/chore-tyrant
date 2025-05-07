@@ -1,78 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Quicksand:wght@300..700&display=swap');
-
-
-body {
-    background-color: white;
-}
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Quicksand:wght@300..700&display=swap");
 
 .chore-header {
-    color: #F72585;
-    font-family: "Bangers", system-ui;
-    font-size: 5rem;
-    /* resizing tip from mdn web docs */
+  color: #f72585;
+  font-family: "Bangers", system-ui;
+  font-size: 5rem;
+  /* resizing tip from mdn web docs */
 }
 
 .navbar-brand.m-0 {
-    font-family: "Bangers", system-ui;
-    font-size: 1.5rem;
+  font-family: "Bangers", system-ui;
+  font-size: 1.5rem;
 }
 
 .description {
-    color: #F72585;
-    font-family: "Quicksand", system-ui;
+  color: #f72585;
+  font-family: "Quicksand", system-ui;
 }
 
 .instructions {
-    font-family: "Quicksand", system-ui;
-    color: #7209B7;
-    font-size: 1.4rem;
-
+  font-family: "Quicksand", system-ui;
+  color: #7209b7;
+  font-size: 1.4rem;
 }
-
-#get-chore {
-    background-color:  #293241;
-    color: #EE6C4D;
-    outline: solid 1px;
-    outline-color: #293241;
-    border-radius: 20px;
-}
-
 
 .col-6.mb-5 {
-    background-color: #98c1d9;
-    border-radius: 40px;
+  background-color: #98c1d9;
+  border-radius: 40px;
 }
 
 .chore-section {
-    color: #293241;
+  color: #293241;
 }
 
 main {
-    background-color: white;
+  background-color: white;
 }
 
 footer {
-    background-color: white;
-    color: gray;
+  background-color: white;
+  color: gray;
 }
 
 .chores-div {
-    margin: 10%;
+  margin: 10%;
 }
 
 .about-title {
-    color: #7209B7;
-    font-family: "Quicksand", system-ui;
+  color: #7209b7;
+  font-family: "Quicksand", system-ui;
 }
 
 .card-body {
-    background-color: #b5d6e9;
-    font-family: "Quicksand", system-ui;
+  font-family: "Quicksand", system-ui;
+  color: darkslategrey;
 }
 
 #about-card {
-    margin-bottom: 48px;
-    /* used devtools to see pixels of bottom margin on home page */
+  margin-bottom: 48px;
+  /* used devtools to see pixels of bottom margin on home page */
 }
