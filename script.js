@@ -105,7 +105,7 @@ function getRandomChore(event) {
   console.log(chores[randomChore]); // from problem solving lab 2
 
   let choreDivElement = document.createElement("div");
-  let choreTitleElement = document.createElement("h2");
+  let choreTitleElement = document.createElement("h4");
   let choreCommandElement = document.createElement("p");
 
   choreDivElement.classList.add("chores-div");

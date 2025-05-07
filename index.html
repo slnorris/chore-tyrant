@@ -14,26 +14,85 @@
   </head>
   <body>
     <header>
-      <h1 class="chore-header">Chore</h1>
-      <h1 class="tyrant-header">Tyrant</h1>
-      <h2 class="description">Assertive Motivation for Assertive Slackers</h2>
+      <nav
+        style="background-color: #293241 !important"
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a style="color: #ee6c4d" class="navbar-brand m-0" href="#"
+            >Chore🫧Tyrant</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main>
-      <h3 class="instructions">
-        Let our chore generator boss you around! Click the button to get chore
-        options!
-      </h3>
-
-      <button type="button" class="btn btn-primary" id="get-chore">
-        <strong>🫧New Chore🫧</strong>
-      </button>
-
-      <div class="container-fluid text-center">
-        <section class="chore-section" id="chore-display"></section>
+    <main class="main">
+      <section>
+        <div style="background-color: #293241;" class="container-fluid text-light text-center py-5">
+          <h1 class="chore-header text-center">Chore🫧Tyrant</h1>
+          <h2 class="description text-center mb-5">
+            Assertive Motivation for Assertive Slackers
+          </h2>
+          <div class="container ">
+            <div class="row">
+              <div class="col-md">
+                <img src="images\bucket.svg" class="rounded-circle" alt="Cleaning Supplies">
+              </div>
+              <div class="col-md">
+                <img src="images\vacuum.svg" class="rounded-circle" alt="vacuum">
+              </div>
+              <div class="col-md">
+                <img src="images\sponges.svg" class="rounded-circle" alt="Cleaning Supplies">
+              </div>
+            </div>
+          </div>
+        </div>
+          <h5 class="instructions text-center m-2 p-2" id="opening-text">
+            Let our chore generator boss you around! Click the button to get chore
+            options!
+          </h5>
+        </div>
+      </section>
+      <div class="btn-div text-center m-3 p-3">
+        <button
+          type="button"
+          class="btn btn-primary"
+          id="get-chore"
+        >
+          <strong>🫧New Chore🫧</strong>
+        </button>
       </div>
-      
+      <!-- from bootstrap docs "setting one column width" -->
+      <div class="container text-center mx-auto">
+        <div class="row my-3">
+          <div class="col"></div>
+          <div class="col-6 mb-5">
+            <section class="chore-section" id="chore-display"></section>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+      <!-- from bootstrap docs "setting one column width" -->
     </main>
-
+    <footer class="text-center">©️Chore Tyrant 2025<br>All Rights Reserved</footer>
     <script src="script.js"></script>
   </body>
 </html>
