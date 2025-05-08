@@ -1,5 +1,10 @@
 console.log("Hello World");
 
+// function darkFunction() {
+//   let element = document.body;
+//   element.classList.toggle("dark-mode")
+// }
+
 // Create an array of objects to display the chore item and the goofy "motivational" command for each
 
 let chores = [
