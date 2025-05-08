@@ -79,17 +79,15 @@ let chores = [
   },
 ];
 
-// console.log(chores)
+console.log(chores)
 
 // get random chore from array
 
-// function getRandomChore(chores) {
-//     return chores[Math.floor(Math.random() * chores.length)];
-// }
+function getChore(chores) {
+    return chores[Math.floor(Math.random() * chores.length)];
+}
 
-// console.log(getRandomChore(chores))
-
-// display instructions before clicking button to display chores
+console.log(getChore(chores))
 
 // display random item on screen with event listeners and event handlers
 

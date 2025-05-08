@@ -9,9 +9,8 @@
   /* resizing tip from mdn web docs */
 }
 
-.navbar-brand.m-0 {
+.navbar-brand {
   font-family: "Bangers", system-ui;
-  font-size: 1.5rem;
 }
 
 .description {
@@ -26,21 +25,12 @@
 }
 
 .col-6.mb-5 {
-  background-color: #98c1d9;
+  background-color: #c5e0f0;
   border-radius: 40px;
 }
 
 .chore-section {
   color: #293241;
-}
-
-main {
-  background-color: white;
-}
-
-footer {
-  background-color: white;
-  color: gray;
 }
 
 .chores-div {
