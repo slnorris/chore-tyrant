@@ -84,11 +84,11 @@ console.log(chores)
 
 // get random chore from array
 
-function getChore(chores) {
-    return chores[Math.floor(Math.random() * chores.length)];
-}
+// function getChore(chores) {
+//     return chores[Math.floor(Math.random() * chores.length)];
+// }
 
-console.log(getChore(chores))
+// console.log(getChore(chores))
 
 // display random item on screen with event listeners and event handlers
 

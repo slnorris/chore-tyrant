@@ -12,3 +12,5 @@ A random chore generator for those who need a little motivation!
 - Array of objects
 - Event listener (click)
 - Element creations (div, header, paragraph)
+## Features
+## Resources Used

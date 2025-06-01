@@ -2,6 +2,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Quicksand:wght@300..700&display=swap");
 
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
 .chore-header {
   color: #f72585;
   font-family: "Bangers", system-ui;
@@ -50,4 +55,9 @@
 #about-card {
   margin-bottom: 48px;
   /* used devtools to see pixels of bottom margin on home page */
+}
+
+.footer {
+  margin-top: 100px;
+  padding-top: 100px;
 }
